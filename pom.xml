@@ -30,18 +30,19 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+	
+		 <dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-integration</artifactId>
+		    <version>2.7.12</version>  <!-- Latest stable release version -->
+		 </dependency>
+
+	
 		<dependency>
 		    <groupId>org.springframework.integration</groupId>
 		    <artifactId>spring-integration-file</artifactId>
-		</dependency>
-		
-		<dependency>
-		    <groupId>org.springframework.integration</groupId>
-		    <artifactId>spring-integration-file</artifactId>
-        </dependency>
-		
-		
-		
+		</dependency> 
+		 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
